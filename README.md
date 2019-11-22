@@ -1,6 +1,7 @@
 ## Sobre o Javascript
 
 [O Reino encantado do JavaScript – Hipsters #38](https://hipsters.tech/o-reino-encantado-do-javascript-hipsters-38/)
+
 [Evolução e Especificação do JavaScript Moderno – Hipsters #58](https://hipsters.tech/evolucao-e-especificacao-do-javascript-moderno/)
 
 ## Chamar o JS dentro do HTML
