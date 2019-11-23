@@ -4,19 +4,10 @@
 
 [Evolução e Especificação do JavaScript Moderno – Hipsters #58](https://hipsters.tech/evolucao-e-especificacao-do-javascript-moderno/)
 
-## Chamar o JS dentro do HTML
-
-Você precisa avisar ao navegador que existe um arquivo Javascipt e que ele precisa carregá-lo.
+## Como chamar o Js
 
 ```javascript
-<script src="./js/hello.js"></script>`
-```
-
-```javascript
-<script>
-    Seu script
-    Essa não é uma boa prática, serve apenas para exercícios e pequenos testes.
-</script>
+<script src="./js/script.js"></script>`
 ```
 ----
 
@@ -91,18 +82,6 @@ document.querySelector("div")
 ## Capturar valores de inputs em eventos
 
 value
-
-## Manipulando elementos HTML
-
-createElement
-
-createTextNode
-
-appendChild
-
-insertBefore
-
-innerHTML
 
 
 ## Métodos do DOM para manipular CSS
