@@ -1,17 +1,32 @@
-1 - Acessando os nodulos/elementos e visualizando no console.
+O exercício é separado em duas fases, duas dificuldades, e contem uma parte extra não obrigatória.
 
-2 - Adicionando eventos de clique e acessando elementos a partir do evento
+**Fase 1**
+Verificar se os campos Nome, CEP, Rua, Número do formulário de endereço foram preenchido. Obs.: o campo complemento não precisar ser preenchido.
 
-3 - Retornando uma resposta pro usário atraves de criaçao de elementos novos e recursos de alerta.
+Se os campos necessários estiverem prenchidos exibir um alerta que diz "Endereço cadastrado com sucesso"
 
----
+**Fase 2**
 
-1 - Destacando um erro de formulário no focus e em eventos do teclado
+Limpe os campos preenchidos quando o formulário for submetido
 
-2 - Selecionando conteúdos.
+Remova o alert e em seu lugar exiba o texto "Endereço cadastrado com sucesso" no elemento `endereco__subtitle`
 
-3 - Manipulando o estilo para fazer animações
+**Desafio**
 
-4 - Métodos de manipulação de atributo - classe
+A cada endereço submetido no form, exibir os dados cadastrados em uma div que deve ser inserida dentro da div `lista`
 
-5 - Métodos de manipulação de atributo - imagem
+Dica: Adicionar a div
+
+<img src="assets/exe.png">
+
+Dicas:
+
+```javascript
+<div>
+    <p>Casa</p>
+    <p>Rua Exemplo, numero 87 - apt 78 - CEP 8375298</p>
+</div>
+```
+
+<img src="assets/exe2.png">
+
