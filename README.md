@@ -202,9 +202,6 @@ Acessando os nodulos/elementos e visualizando no console. Adicionando eventos de
 
 - botão clica e escreve no console
 - botões clica e coloca cor no fundo
-- botões clica e coloca cor no fundo random + função random
-- botões clica e coloca numero random (manipula 2 elemento) + função random
-
 
 - input recebe email e agradece o recebimento
 - input recebe telefone e agradece o recebimento
