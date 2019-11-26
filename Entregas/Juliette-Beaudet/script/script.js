@@ -26,7 +26,7 @@ console.log(nomeValor, cepValor, ruaValor, numeroValor)
 
 if(nomeValor == ""){
     alert("Preencha o campo Nome")
-    inputNome.focus()
+    inputNome.focus() //sei que não era necessário criar esse focus no exercício, mas é bem bonito :)//
 }
 else if(cepValor == ""){
     alert("Preencha o campo CEP")
