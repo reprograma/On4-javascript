@@ -1,7 +1,8 @@
-/* **Fase 1**
-Verificar se os campos Nome, CEP, Rua, Número do formulário de endereço foram preenchido. Obs.: o campo complemento não precisar ser preenchido.
+/* **Fase 2**
 
-Se os campos necessários estiverem prenchidos exibir um alerta que diz "Endereço cadastrado com sucesso"*/
+Limpe os campos preenchidos quando o formulário for submetido
+
+Remova o alert e em seu lugar exiba o texto "Endereço cadastrado com sucesso" no elemento `endereco__subtitle` */
 
 
 const inputNome = document.getElementById("enderecoInputNome")
@@ -9,6 +10,7 @@ const inputCEP = document.getElementById("enderecoInputCEP")
 const inputRua = document.getElementById("enderecoInputRua")
 const inputNumero = document.getElementById("enderecoInputNumero")
 const botao = document.querySelector(".endereco__button")
+const mensagem = document.querySelector(".endereco__subtitle")
 
 console.log(inputNome, inputCEP, inputRua, inputNumero)
 
@@ -25,27 +27,32 @@ console.log(nomeValor, cepValor, ruaValor, numeroValor)
 
 
 if(nomeValor == ""){
-    alert("Preencha o campo Nome")
+    mensagem.textContent = "Preencha o campo Nome"
     inputNome.focus()
 }
 else if(cepValor == ""){
-    alert("Preencha o campo CEP")
+    mensagem.textContent = "Preencha o campo CEP"
     inputCEP.focus()
 }
 else if(ruaValor == ""){
-    alert("Preencha o campo Rua")
+    mensagem.textContent = "Preencha o campo Rua"
     inputRua.focus()
 }
 else if(numeroValor == ""){
-    alert("Preencha o campo Número")
+    mensagem.textContent = "Preencha o campo Número"
     inputNumero.focus()
 }
 
 else{
-    alert("Endereço cadastrado com sucesso")
+    mensagem.textContent = "Endereço cadastrado com sucesso"
+    inputNome.value = ""
+    inputRua.value = ""
+    inputCEP.value = ""
+    inputNumero.value = ""
 }
 
 }
+
 
 
 
