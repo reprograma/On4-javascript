@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Exercio de JavaScript</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="endereco">
+            <h1>Adicione um endereço de entrega</h1>
+            <h2 class="endereco__subtitle"></h2>
+            <form>
+                <div class="bloco_endereco">
+                    <label>
+                        Nome
+                    </label>
+                    <input placeholder="Insira seu nome aqui" type="text" id="nome">
+                </div>
+                <div  class="bloco_endereco">
+                    <label>
+                        CEP
+                    </label>
+                    <input placeholder="Informe seu CEP só numeros" type="number" id="cep">
+                </div>
+                <div  class="bloco_endereco">
+                    <label>
+                        Rua
+                    </label>
+                    <input placeholder="Informe o nome da Rua" type="text" id="rua">
+                </div>
+                <div  class="bloco_endereco">
+                    <label>
+                        Numero
+                    </label>
+                    <input type="text" id="numero">
+                </div>
+                <div  class="bloco_endereco">
+                    <label>
+                        Complemento
+                    </label>
+                    <input type="text" id="complemento">
+                </div>
+                <div  class="bloco_endereco">
+                    <button id="botao" onclick="cadastro ()">Enviar</button>
+                </div>
+            </form>
+        </div>
+        <div id="lista" class="novoCadastro"></div>
+    </div>
+<script src="Script/script3.js"></script>
+</body>
+
+</html>
