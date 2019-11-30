@@ -18,6 +18,15 @@ body {
 }
 
 /* FORM */
+p {
+    font-size: 20px;
+    color: #7F479B;
+    text-decoration: underline;
+    width: 100%;
+    padding: 20px;
+    margin: 40px;
+
+}
 
 .endereco{
     width: 30%;
