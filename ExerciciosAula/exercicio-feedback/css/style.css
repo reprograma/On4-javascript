@@ -63,3 +63,8 @@ body {
     color: #ECDDF3;
     transition: 0.3s;
 }
+
+.testimonials{
+    text-align: center;
+    padding: 20px;
+}
